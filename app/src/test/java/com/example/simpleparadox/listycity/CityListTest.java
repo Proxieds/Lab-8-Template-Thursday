@@ -96,6 +96,6 @@ class CityListTest {
     
     @Test
     void testSumMethod() {
-        assertEquals(2, sumMethod());
+        assertEquals(1, sumMethod());
     }
 }
