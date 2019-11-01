@@ -96,6 +96,7 @@ class CityListTest {
     
     @Test
     void testSumMethod() {
-        assertEquals(1, sumMethod());
+        CityList cityList = mockCityList();
+        assertEquals(1, cityList.sumMethod());
     }
 }
